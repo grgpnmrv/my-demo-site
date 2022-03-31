@@ -3,10 +3,10 @@ body {
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  line-height: 24px;
+  color: #ffee00;
+  background-color: #000000;
+  background-image: url("img/catscatscats2.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -14,7 +14,14 @@ body {
 .container {
   max-width: 928px;
   margin: 0 auto;
+  padding: 5px;
+}
+
+.container-image {
+  max-width: 928px;
+  margin: 0 auto;
   padding: 0 16px;
+  text-align: center;
 }
 
 .page-header {
@@ -30,7 +37,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #ffee00;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -61,6 +68,13 @@ body {
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 32px;
+}
+
+.junior-frontender{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 32px;
 }
 
 .hero-image p {
@@ -70,7 +84,8 @@ body {
 }
 
 .intro {
-  margin: 0 0 120px;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #000000, #331322);
 }
 
 .subheading {
@@ -85,11 +100,12 @@ body {
 .user-image {
   margin: 0 0 32px;
   text-align: center;
+  border-radius: 20%;
 }
 
 .intro h3,
 .portfolio h3 {
-  margin: 0 0 12px;
+  margin: 0; /*0 12px;*/
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
@@ -136,7 +152,8 @@ body {
 }
 
 .portfolio {
-  margin: 0 0 120px;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #331322, #000000);
 }
 
 .projects {
@@ -164,15 +181,16 @@ body {
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
-  background-color: #288be6;
-  color: #ffffff;
+  font-weight: bold;
+  border-radius: 16px;
+  background-color: #ffee00;
+  color: #000000;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
+  background-color: #000000;
+  color: #ffee00;
 }
 
 .page-footer a {
@@ -191,4 +209,13 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.bkg{
+  /*background-image: linear-gradient(to bottom, #191919, #ff0000);*/
+  background-color: #000000;
+}
+
+.body-footer-gradient{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1));
 }

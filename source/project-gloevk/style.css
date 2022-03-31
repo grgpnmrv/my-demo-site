@@ -17,6 +17,18 @@ h1 {
   line-height: 64px;
 }
 
+.button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 16px;
+  background-color: #ffee00;
+  color: #000000;
+}
+
 h2 {
   border-bottom: 2px solid #cccccc;
   padding-bottom: 12px;
@@ -43,7 +55,7 @@ h2 {
   margin: 0 auto 26px;
   text-align: center;
   font-size: 16px;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 .site-header img {
@@ -90,7 +102,7 @@ h2 {
 
 .advantages-list {
   padding: 0;
-  list-style: none;  
+  list-style: none;
 }
 
 .advantages-item {
@@ -125,5 +137,3 @@ h2 {
   vertical-align: middle;
   padding: 0 20px;
 }
-
-
