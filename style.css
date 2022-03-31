@@ -135,6 +135,12 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.peace{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 32px;
+}
+
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
