@@ -198,6 +198,10 @@ body {
   color: #000000;
 }
 
+.button:hover {
+  background-color: #fcf8e8;
+}
+
 .page-footer {
   padding: 40px 0;
   background-color: #000000;

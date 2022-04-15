@@ -29,6 +29,10 @@ h1 {
   color: #000000;
 }
 
+.button:hover {
+  background-color: #fcf8e8;
+}
+
 h2 {
   border-bottom: 2px solid #cccccc;
   padding-bottom: 12px;
